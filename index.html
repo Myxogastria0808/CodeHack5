@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div id=insertText></div>
 <script>
 fetch( "./sample.txt" ).then( res => res.text() ).then( text => {
 document.getElementById( "insertText" ).textContent = text;
